@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+  <title>Shop Homepage</title>
+
+</head>
+
+<body>
+  {% include 'comments.html' %}
+  {% include 'navbar.html' %}
+  {% include 'open_part.html' %}
+  {% include 'exam_list.html' %}
+  
+  <!-- Footer -->
+  <footer class="py-2 bg-danger">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; 2021</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>

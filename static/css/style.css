@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+@font-face {
+  font-family: 'Porcelain';
+  src: local('porcelain'),
+       url('../fonts/porcelain.ttf') format("truetype");
+}
+
+body { 
+    background-color: #FFE0B2;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(0,0,0, .8);
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(0,0,0, .8);
+}
+
+.btn-success {
+	color: 121212;
+	background-color: #D5E3ED;
+	border-color: #70F8BA;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+	background-color: #AAA1C8;
+	border-color: #70F8BA;
+}
+.card {
+	background-color: #EDE4D5;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+#openText {
+	padding-top: 18%;
+	font-family: 'Porcelain';
+	font-size: 2.7rem;
+}
+#card-title-text {
+	font-size: 2.5rem;
+}
+
+.bg-light {
+	opacity: .5
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Porcelain';
+}
+
