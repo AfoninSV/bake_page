@@ -1,0 +1,40 @@
+pacman -Ss	search
+pacman -S	install
+pacman -R	remove a single package, leaving all of its dependencies installed
+pacman -Rs	remove a package and its dependencies which are not required by any other installed package
+pacman -Syu	updater
+pacman -U	offline install
+
+GIT:
+git config --system /all system users
+git config --global
+git config --local
+git init  /initialisation of new project
+git add ...  /add to tracking
+git log  -p /commit history
+git status   /files status
+git restote file.app  /restore from last commit
+git diff  --staged   /shows differences
+git show name.app  /commit chanhes
+git commit -m "comment"  /commit:)
+git rm --cached
+
+git remote add origin https://github.com/KalinaLove/name.git  /connect
+git push -u origin master /login, push
+
+git branch newbranchname  /create new branch
+git checkout branchname  /switch to another branch
+git branch -a  /list of branches
+git branch -d branchName  /delete branch (name)
+git merge nameBranche /from main branch take the rest
+
+git push   /into
+git pull   /outfrom
+
+git remote add name https://github.com/KalinaLove/samplesite.git
+git branch -M master
+git push -u origin master
+ token
+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
+
+

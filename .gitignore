@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#git branch (temporary?)
+	bake/
+
 # Distribution / packaging
 .Python
 build/
