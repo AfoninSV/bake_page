@@ -1,3 +1,6 @@
+# Virtual environment
+avenv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -6,8 +9,8 @@ __pycache__/
 # C extensions
 *.so
 
-#git branch (temporary?)
-	bake/
+# git branch (temporary?)
+bake/
 
 # Distribution / packaging
 .Python
@@ -130,4 +133,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
