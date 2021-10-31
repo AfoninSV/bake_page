@@ -7,7 +7,7 @@
        url('../fonts/porcelain.ttf') format("truetype");
 }
 
-body { 
+body {
     background-color: #FFE0B2;
 }
 
@@ -34,13 +34,13 @@ body {
 #openText {
 	padding-top: 18%;
 	font-family: 'Porcelain';
-	font-size: 3.5vw;
+	font-size: 2rem;
 }
 #card-title-text {
 	font-size: 2em;
 }
 #card-footer-text {
-	font-family: 
+	font-family:
 }
 
 .bg-light {
@@ -49,4 +49,3 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Porcelain';
 }
-
