@@ -7,6 +7,7 @@ from examples import views as vw
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", vw.ex_list, name='c_list'),
+    path('create/', vw.ex_create)
 ]
 
 if settings.DEBUG:
