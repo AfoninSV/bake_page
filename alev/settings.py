@@ -2,7 +2,6 @@ from pathlib import Path
 import django_heroku
 
 # Configure Django App for Heroku.
-django_heroku.settings(locals())
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -120,3 +119,20 @@ STATIC_ROOT = BASE_DIR / 'static_cdn'
 STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
+
+django_heroku.settings(locals())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
