@@ -1,8 +1,4 @@
 # Virtual environment
-avenv/
+venv/
 
-#Pychache
-alev/
-
-# git branch (temporary?)
-bake/
+*.idea
